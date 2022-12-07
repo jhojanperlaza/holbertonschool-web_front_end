@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-size: var(--font-size-small);
+  font-size: 10px;;
 }
 
 body {
