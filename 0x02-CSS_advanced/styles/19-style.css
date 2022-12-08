@@ -350,7 +350,6 @@ template {
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
   --section-tagline-margin: 0;
-
 }
 
 .footer {
@@ -359,7 +358,7 @@ template {
 
 .footer-copyright {
   margin: 0;
-  font-family: var(--font-size-small);
+  font-size: var(--font-size-small);
   color: var(--text-color);
 }
 
