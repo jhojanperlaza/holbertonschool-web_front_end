@@ -286,7 +286,7 @@ template {
 
 .card-services .a {
   display: block;
-  padding: 2xrem;
+  padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
