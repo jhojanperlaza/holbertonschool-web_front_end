@@ -125,21 +125,6 @@ a:active {
   background-color: var(--color-light-grey)
 }
 
-.button {
-  display: var(--button-display);
-  padding: var(--button-padding);
-  border-style: var(--button-border);
-  font-size: var(--button-font-size);
-  color: var(--button-color);
-  text-decoration: var(--button-text-decoration);
-}
-
-.button:hover {
-  color: var(--button-hover-color);
-  text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background);
-}
-
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -364,6 +349,21 @@ template {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button {
+  display: var(--button-display);
+  padding: var(--button-padding);
+  border-style: var(--button-border);
+  font-size: var(--button-font-size);
+  color: var(--button-color);
+  text-decoration: var(--button-text-decoration);
+}
+
+.button:hover {
+  color: var(--button-hover-color);
+  text-decoration: var(--button-hover-text-decoration);
+  background: var(--button-hover-background);
 }
 
 :root {
