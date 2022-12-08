@@ -326,7 +326,7 @@ template {
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--nav-item-font-weight);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: .04rem;;
+  --nav-item-letter-spacing: .04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
