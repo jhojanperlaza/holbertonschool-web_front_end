@@ -51,7 +51,7 @@ main {
 
 .nav .nav-link {
   display: block;
-  padding: auto;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
