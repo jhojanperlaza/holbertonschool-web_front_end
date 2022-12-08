@@ -324,7 +324,7 @@ template {
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
   --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--nav-item-font-weight);
+  --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: .04rem;
   --nav-item-display: inline-block;
