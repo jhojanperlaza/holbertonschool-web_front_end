@@ -72,7 +72,7 @@ ul.row {
   width: 50%;
 }
 
-[attribute*="col-"] {
+[class*="col-"] {
   float: left;
   padding: 0.5rem;
 }
