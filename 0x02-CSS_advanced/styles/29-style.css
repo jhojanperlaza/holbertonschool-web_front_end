@@ -65,7 +65,7 @@ main {
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 0.20rem;
+  height: 0.2rem;
 }
 
 .nav .nav-item:hover .nav-link::before {
