@@ -94,8 +94,8 @@ ul.row {
 .header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
-  margin-top: var(--header-logo-link-top);
-  margin-left: var(--header-logo-link-left);
+  top: var(--header-logo-link-top);
+  left: var(--header-logo-link-left);
 }
 
 h1,
