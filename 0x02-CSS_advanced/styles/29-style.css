@@ -68,7 +68,7 @@ main {
   height: 0.20rem;
 }
 
-.nav .nav-link::after:hover {
+.nav .nav-link:hover::after {
   background-color: var(--color-primary);
   width: 100%;
 }
