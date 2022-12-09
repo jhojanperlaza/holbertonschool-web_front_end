@@ -83,7 +83,7 @@ ul.row {
   clear: both;
 }
 
-header {
+.header {
   padding: var(--header-padding);
 }
 
