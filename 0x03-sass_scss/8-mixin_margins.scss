@@ -1,5 +1,4 @@
 /* Margin mixin */
-
 @mixin mixin_margins($body-margin, $div-margin) {
   body {
     margin-left: #{$body-margin};
