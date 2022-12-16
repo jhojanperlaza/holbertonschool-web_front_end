@@ -757,12 +757,12 @@ ul.row {
 .post-meta-list [class*='post-meta-'] {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 0.2rem solid var(--color-light-grey)
+  border-bottom: 0.2rem solid var(--color-light-grey);
 }
 
-.post-meta-list .post-meta {
-  border: none;
+.post-meta-list [class*='post-meta-']:last-child {
   margin-bottom: 3rem;
+  border: none;
 }
 
 /* Tag list ============================= */
@@ -777,7 +777,7 @@ ul.row {
 }
 
 .tag-list li::after {
-  content: ", ";
+  content: ', ';
 }
 
 .tag-list li:last-child::after {
