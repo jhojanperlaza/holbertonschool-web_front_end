@@ -1,0 +1,16 @@
+/* Colors assignments */
+$text-color: #3D3D3D;
+$backg-color: #6D6D6D;
+
+body {
+  color: $text-color;
+  background-color: $backg-color;
+}
+
+p {
+  color: $text-color;
+}
+
+h2 {
+  background-color: $backg-color;
+}
