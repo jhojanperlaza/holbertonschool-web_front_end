@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Task 4</title>
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="application/javascript">
+    const createFamilyTree = () => {
+      $("body").append(
+        "<table><thead><tr><th><th><tbody><tr><td><td><tr><td><td><tr><td><td>"
+      )
+      $("th").first().text("Firstname").end().last().text("Lastname")
+      const firstNames = ["Guillaume", "Paulette", "Antoine"]
+      firstNames.forEach((e, i) => {
+        $(`tr:nth-child(${i + 1}) td`)
+          .first()
+          .text(e)
+          .end()
+          .last()
+          .text("Salva")
+      })
+    }
+    createFamilyTree()
+    const replaceFamilyTree = () => {
+      $("tbody").html(`
+          <tr>
+            <td>Gerard</td>
+            <td>Bonissa</td>
+          </tr>
+        `)
+    }
+    replaceFamilyTree()
+  </script>
+</body>
+
+</html>
